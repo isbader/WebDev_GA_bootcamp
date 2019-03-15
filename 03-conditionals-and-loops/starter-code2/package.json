@@ -1,0 +1,20 @@
+{
+  "name": "workclass",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "get-address-example": "node rrag.js && node yourApp.js"
+  },
+  "scripts": {
+    "test": "node main.js",
+    "start": "node main.js"
+  },
+  "author": "j",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.9",
+    "real-random-address": "^1.0.6",
+    "save": "^2.3.3"
+  }
+}

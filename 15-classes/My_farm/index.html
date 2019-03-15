@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Virtual Farm</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- jquery -->
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- styling -->
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    body {
+      background: url(farm.jpg);
+      background-size: cover;
+    }
+    /* .animals {
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      bottom: 100px;
+      cursor: pointer;
+      background-size: cover;
+      background-position: center;
+    } */
+    .birds{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      top: 10%;
+      cursor: pointer;
+      background-size: cover;
+      background-position: center;
+    }
+    .sheeps{
+      height: 120px;
+      width: 120px;
+      position: absolute;
+      top: 80%;
+      right: 80%;
+      cursor: pointer;
+      background-size: cover;
+      background-position:center;
+    }
+    .roosters{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      top:70%;
+      right: 70%;
+      cursor: pointer;
+      background-size:cover;
+      background-position: center;
+    }
+  </style>
+  <!-- js -->
+</head>
+<body>
+
+  <div class="container-fluid farm">
+      <div class="animals">
+          <img id="bird" class="birds" src="bird.jpg">
+          <img id="sheep" class="sheeps" src="sheep.jpg"></img>
+          <img id="rooster" class="roosters" src="rooster.jpg"></img>
+      </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
