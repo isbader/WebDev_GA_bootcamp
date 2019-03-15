@@ -1,0 +1,16 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "Ebere Iweala",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
